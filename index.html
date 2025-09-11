@@ -6,63 +6,119 @@
     <title>Basic html Assignment</title>
 </head>
 <body>
-      
+      <!--section: header-navbar -->
+
+      <section>
     <header>
-        <nav>
+        <nav> 
+            <ul>
+                <li><a href="index.html" target="_blank" title="View-home-page">Home</a></li>
+                <li><a href="about.html" title="view-About-me">About</a></li>
+                <li><a href="#Skill" title="My-Skills">Skill</a></li>
+                <li><a href="#Project" title="view-My-Projects">Project</a></li>
+                <li><a href="#Edu" title="view-My-Education">Education & Experience</a></li>
+                <li><a href="#contract.html" title="view-Contact-Me">Contract</a></li>
+
+            </ul>
 
         </nav>
 
     </header>
+    </section>
+
     <!-- section: intro -->
      <main>
-        <scetion id="intro">
+        <section id="intro">
             <h1>I am poritos</h1>
-            <P><em>I am a full-stack wed developer+Ai integrate </em> </P>
+            <p>I am a passionate <strong>(full-Strack Web Developer & AI Integrater)</strong></p>
+         <hr />
+        </section>
+
+     <!-- section: About-->
+      <section id="about">
+        <h2>About me</h2>
+           <p><em>This is a brief introduction about my self</em> </p>
+           <p>Hello! I'm Poritos, a dedicated and enthusiastic full-stack web developer with a passion for creating dynamic and user-friendly web applications  With a strong foundation <br /> <br />
+           <p>in both front-end` and back-end technologies, I strive to build seamless digital experiences that meet the needs of users and businesses alike.</p> <br />
+             
+          
+          <a href="https://github.com/Poritos1899"><img src="./images/pic.jpg" alt="poritos-pic" width="200" height="200"/></a>
+       
+      </section>
+
+
+     <!-- section: Skill --> 
+     <section id="Skill">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>AI Integration</li>
+        </ul>
+
+
+     </section>
      
-        </scetion>
-     
+     <!-- section: Project -->
+     <section id="Project">
+        <h2>My Projects</h2>
+        <ul>
+            <a href="https://github.com/Poritos1899"><li>Project 1: Portfolio Website</li></a>
+            <h2><strong>Project-Screenshot</strong></h2>
+            <img src="./images/ab.png" alt="assignment-screenshot" width="400" height="400" />
+            <li>Project 2: E-commerce Platform</li>
+            <li>Project 3: AI Chatbot</li>
+        </ul>
 
+       </section>
 
-    <!-- section: Skill -->
-
-
-
-    <!-- section: Project -->
-
-
-
-    <!-- section: Education & Experience -->
-      
-
+     <!-- section: Education & Experience -->
+     <section id="Edu">
+        <h2>My Education</h2>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <caption>Education & Experience</caption>
+            <thead>
+                <tr>
+                    <th>Honours</th>
+                    <th>Institution</th>
+                    <th>year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BBA</td>
+                    <td>SBPGC</td>
+                    <td>21/22</td>
+                </tr>
+            </tbody>
+        </table>
+     </section>
+    </main>
 
     <!-- section: contract -->
+    <footer>
+        <section id="contract">
+        <h2><a href="https://github.com/Poritos1899">Contract Me</a></h2>
+        <p><em>You will find me here</em></p>
 
+        <form>
+            <label for="name" name="name">Name</label>
+             <input type="text" id="name" name="name" required>
 
-
-
-
-
+           <label for="email">Email</label>
+           <input type="email" id="email" name="email" required>
+              <button type="Submit">Submit</button> 
+              <button type="reset">Clear</button>
+        </form>
+    </section>
+          
 
 
 
     
-        <section>
-            <h2>About Me</h2>
-            <p>This is a brief introduction about myself.</p>
-        </section>
-        <section>
-            <h2>My Projects</h2>
-            <p>Here are some of the projects I've worked on.</p>
-        </section>
-    </main>
-
-
-
-    <footer>
-        <p>&copy; 2023 My Website</p>
     </footer>
-
-
-
+    
 </body>
 </html>
