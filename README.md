@@ -60,9 +60,10 @@ Could you create a simple HTML portfolio page that showcases your skills and pro
 - Add a progress bar, and meter to your webpage
 #### Submission
 Create a Pull-request. Remember to add your deployed website link to README.md when making the PR.  
- ##this my web deploy link: ( https://elegant-caramel-fbb1f2.netlify.app/  )
+ ## this my web deploy link (intermediate html): ( https://elegant-caramel-fbb1f2.netlify.app/  )
 
 ## C. [HTML Advance Part](https://www.youtube.com/live/pJLz-YG3Vio?si=GbFo4G_p2PKHiz37)
 ### 1. **Make sure your webpage is 100% accessible**
 #### Submission
 Create a Pull-request. Remember to add your deployed website link to README.md when making the PR.  
+## this is my advance html assignment, is webpage 96% accessible. netlify deploy link: https://melodious-marzipan-664d76.netlify.app/
